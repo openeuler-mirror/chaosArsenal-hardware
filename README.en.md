@@ -1,36 +1,17 @@
-# chaosArsenal-hardware
+# arsenal-hardware
 
-#### Description
-Simulate possible hardware failures through Linux universal technology or interfaces.
+arsenal-hardware is the atomic execution capability of the chaosArsenal tool. It is a tool set focused on hardware atomic fault injection capabilities, including fault simulation for scenarios such as network, disk, and PCIE.
 
-#### Software Architecture
-Software architecture description
+## Usage
 
-#### Installation
+### Compilation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+arsenal-hardware is compiled together with the chaosArsenal tool when the latter is built. See the Makefile in the chaosArsenal project for details.
 
-#### Instructions
+## Open Source License
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+chaosArsenal uses the Apache 2.0 open source license.
 
-#### Contribution
+## Contact Us
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Email: chaos-arsenal@sangfor.com.cn
