@@ -23,7 +23,6 @@ import (
 	_ "arsenal-hardware/submodules/disk"
 	// 向全局故障相关操作接口map中添加pcie类型接口
 	_ "arsenal-hardware/submodules/pcie"
-	// 向全局故障相关操作接口map中添加memory类型接口
+	// 向全局故障相关操作接口map中添加network类型接口
 	_ "arsenal-hardware/submodules/network"
-	// 向全局故障相关操作接口map中添加process类型接口
 )
