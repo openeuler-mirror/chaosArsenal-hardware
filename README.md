@@ -1,3 +1,5 @@
+[English](./README.en.md) | 简体中文
+
 # arsenal-hardware
 
 arsenal-hardware是chaosArsenal工具的原子执行能力，专注于硬件的原子故障注入能力工具集，包含网络、磁盘、PCIE等场景故障模拟。
