@@ -1,3 +1,5 @@
+English | [简体中文](./README.md)
+
 # arsenal-hardware
 
 arsenal-hardware is the atomic execution capability of the chaosArsenal tool. It is a tool set focused on hardware atomic fault injection capabilities, including fault simulation for scenarios such as network, disk, and PCIE.
