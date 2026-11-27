@@ -23,9 +23,9 @@ import (
 	"arsenal-hardware/pkg/base"
 )
 
-// 故障准备：arsenal-os prepare process caton --pid 10 --interval 10
-// 故障注入：arsenal-os inject process caton --pid 10 --interval 10
-// 注入清理：arsenal-os remove process caton --pid 10 --interval 10
+// 故障准备：arsenal-hardware prepare disk offline --device sda
+// 故障注入：arsenal-hardware inject disk offline --device sda
+// 注入清理：arsenal-hardware remove disk offline --device sda
 func main() {
 	if err := base.Run(os.Args); err != nil {
 		fmt.Printf("%v\n", err)
